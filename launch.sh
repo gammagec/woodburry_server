@@ -1,0 +1,1 @@
+java -jar -Xmx6G -Xms3G mcpc-plus-1.5.1-R0.3-SNAPSHOT-f682-400.jar

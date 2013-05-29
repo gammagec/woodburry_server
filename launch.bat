@@ -1,0 +1,1 @@
+java -Xmx4G -Xms3G -XX:PermSize=128m -jar mcpc-plus-1.5.1-R0.3-SNAPSHOT-f682-400.jar
