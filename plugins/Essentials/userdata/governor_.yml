@@ -1,19 +1,19 @@
 timestamps:
-  login: 1368169422101
-  logout: 1368169470779
+  login: 1369803539509
+  logout: 1369803558469
 ipAddress: 127.0.0.1
 lastlocation:
   world: woodburry
-  x: 41.5
-  y: 77.0
-  z: 290.5
-  yaw: -1.8
-  pitch: 1.5
+  x: 99.5
+  y: 62.0
+  z: 92.5
+  yaw: 0.0
+  pitch: 0.0
 logoutlocation:
   world: woodburry
-  x: 64.10451007289893
-  y: 76.0
-  z: 273.5379671535746
-  yaw: -111.450424
-  pitch: 21.599997
+  x: 99.3867976214033
+  y: 87.0
+  z: 108.28213711795141
+  yaw: -79.20002
+  pitch: 10.049992
 afk: false
