@@ -2,3 +2,5 @@
 *.lck
 woodburry
 woodburry_the_end
+plugins/GroupManager/backup
+plugins/Essentials/userdata
