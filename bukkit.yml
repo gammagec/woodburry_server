@@ -40,8 +40,6 @@ mcpc:
   infinite-water-source: true
   flowing-lava-decay: false
   load-chunk-on-request: true
-  simulate-block-place-event-IDs: []
-  simulate-block-place-event-default: false
   warn-place-no-tile-entity: true
   fake-players:
     com/eloraam/redpower/machine/EntityPlayerFake:
@@ -55,10 +53,13 @@ mcpc:
       debug: false
       custom-class-loader: true
       use-guava10: true
+      remap-nms-v1_5_R3: true
       remap-nms-v1_5_R2: true
       remap-nms-v1_5_R1: true
       remap-nms-v1_4_R1: true
       remap-nms-v1_4_6: true
+      remap-obc-v1_5_R3: false
+      remap-obc-v1_5_R2: false
       remap-obc-v1_5_R1: true
       remap-obc-v1_4_R1: false
       remap-obc-v1_4_6: false
@@ -67,6 +68,14 @@ mcpc:
       global-inheritance: true
       plugin-inheritance: true
       remap-reflect-field: true
+      remap-reflect-class: true
+      remap-allow-future: false
+  bukkit-to-forge-mappings:
+    world_nether: dim-1
+    world_the_end: dim1
+    world_twilightforest: dim7
+  simulate-block-place-event-IDs: []
+  simulate-block-place-event-default: false
 world-settings:
   default:
     growth-chunks-per-tick: 650
@@ -91,6 +100,9 @@ world-settings:
     entity-tracking-range-misc: 32
     entity-tracking-range-max: 64
     info: false
+    keeploaded-environment-normal: true
+    keeploaded-environment-nether: true
+    keeploaded-environment-the_end: false
   world:
     growth-chunks-per-tick: 1000
   world_nether:
