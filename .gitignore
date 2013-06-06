@@ -5,4 +5,5 @@ woodburry_the_end
 plugins/GroupManager/backup
 plugins/GroupManager/worlds
 plugins/Essentials/userdata
+crash-reports
 .DS_Store
