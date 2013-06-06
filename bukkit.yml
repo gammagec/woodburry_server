@@ -115,6 +115,7 @@ world-settings:
     worldgen-ExtrabiomesXL-LegendOakGenerator: true
     worldgen-ExtrabiomesXL-QuicksandGenerator: true
     worldgen-ExtrabiomesXL-OilGenerator: true
+    worldgen-Flowercraftmod-FCGenerator: true
   world:
     growth-chunks-per-tick: 1000
   world_nether:

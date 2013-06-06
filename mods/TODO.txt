@@ -51,9 +51,9 @@
 **Thermal Expansion 2.4.1.0
 **tubestuff - 54.0.0
 **TreeCapacitator 1.5.1.r01
-CodeChickenCore 0.8.6.1
+
 **CoFHCore 1.5.1.5
-**NEI 1.5.2.9
+
 **PowerCrystalCore 1.1.5-2
 
 Woodburry Mod
