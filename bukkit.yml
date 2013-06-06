@@ -105,6 +105,16 @@ world-settings:
     keeploaded-environment-the_end: false
     worldgen-AppliedEnergistics-AppEng: true
     worldgen-Chisel-MarbleWorldGenerator: true
+    worldgen-ExtrabiomesXL-CatTailGenerator: true
+    worldgen-ExtrabiomesXL-FlowerGenerator: true
+    worldgen-ExtrabiomesXL-LeafPileGenerator: true
+    worldgen-ExtrabiomesXL-MarshGenerator: true
+    worldgen-ExtrabiomesXL-MountainDesertGenerator: true
+    worldgen-ExtrabiomesXL-MountainRidgeGenerator: true
+    worldgen-ExtrabiomesXL-VanillaFloraGenerator: true
+    worldgen-ExtrabiomesXL-LegendOakGenerator: true
+    worldgen-ExtrabiomesXL-QuicksandGenerator: true
+    worldgen-ExtrabiomesXL-OilGenerator: true
   world:
     growth-chunks-per-tick: 1000
   world_nether:
