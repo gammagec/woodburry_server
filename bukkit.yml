@@ -103,6 +103,7 @@ world-settings:
     keeploaded-environment-normal: true
     keeploaded-environment-nether: true
     keeploaded-environment-the_end: false
+    worldgen-AppliedEnergistics-AppEng: true
   world:
     growth-chunks-per-tick: 1000
   world_nether:
