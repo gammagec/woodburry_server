@@ -104,6 +104,7 @@ world-settings:
     keeploaded-environment-nether: true
     keeploaded-environment-the_end: false
     worldgen-AppliedEnergistics-AppEng: true
+    worldgen-Chisel-MarbleWorldGenerator: true
   world:
     growth-chunks-per-tick: 1000
   world_nether:
