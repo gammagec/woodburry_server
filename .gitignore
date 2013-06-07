@@ -1,9 +1,9 @@
-*.log
+*.log.*
 *.lck
 woodburry
 woodburry_the_end
 plugins/GroupManager/backup
 plugins/GroupManager/worlds
 plugins/Essentials/userdata
-crash-reports
+crash-reports/*
 .DS_Store
