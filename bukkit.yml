@@ -116,6 +116,21 @@ world-settings:
     worldgen-ExtrabiomesXL-QuicksandGenerator: true
     worldgen-ExtrabiomesXL-OilGenerator: true
     worldgen-Flowercraftmod-FCGenerator: true
+    worldgen-modbspkrsCore-ModLoaderWorldGenerator: true
+    worldgen-CoFHWorld-WorldHandler: true
+    worldgen-modTreeCapitator-ModLoaderWorldGenerator: true
+    worldgen-IC2-IC2: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-AtomicScience-OreGenerator: true
+    worldgen-ICBMContraption-OreGenerator: true
+    worldgen-MineFactoryReloaded-MineFactoryReloadedWorldGen: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-ComplexMachines-ComplexMachinesWorldGen: true
+    worldgen-ElectricExpansion-OreGenerator: true
+    worldgen-Mekanism-OreHandler: true
   world:
     growth-chunks-per-tick: 1000
   world_nether:
