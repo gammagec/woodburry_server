@@ -1,1 +1,1 @@
-java -Xmx4G -Xms3G -XX:PermSize=128m -jar mcpc-plus-1.5.2-R0.2-forge716-B515.jar
+java -Xmx4G -Xms3G -XX:PermSize=128m -jar mcpc-plus-1.5.2-R0.2-forge716-B526.jar
