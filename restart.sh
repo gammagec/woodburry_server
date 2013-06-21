@@ -1,0 +1,1 @@
+screen -S wb -X stuff 'stop'`echo -ne '\015'`
