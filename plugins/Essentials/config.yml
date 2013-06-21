@@ -39,10 +39,10 @@ change-displayname: true
 #add-prefix-suffix: false
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 0
+teleport-cooldown: 30
 
 # The delay, in seconds, before a user actually teleports.  If the user moves or gets attacked in this timeframe, the teleport never occurs.
-teleport-delay: 0
+teleport-delay: 3
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
@@ -214,14 +214,28 @@ player-commands:
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   tools:
-    delay: 10
+    delay: 64800
     items:
+# The following items are, full leather armour, 1 stone sword, 1 iron Paxel, 8 cooked pork, 8 bread
+# 1 rubber tree sapling (IC2), 1 bed, 16 torches, and 4 Oak saplings. They will all be given automatically
+# to new players to the server to help start them off right. If the "/kit tools" command is allowed, it has
+# a cooldown of 18 hours to prevent spamming and overuseage.
+      - 298 1
+      - 299 1
+      - 300 1
+      - 301 1
       - 272 1
-      - 273 1
-      - 274 1
-      - 275 1
+      - 11708 1
+# Next 2 items may be either, both, or neither. First is 8 cooked porkchop, second is 8 bread.
+      - 320 8
+      - 297 8
+      - 241 1
+      - 355 1
+      - 50 16
+      - 6 4
   dtools:
-    delay: 600
+    delay: 604800
+# This delay is set at 7 days, if you decide to enable this kit. I have not modified the items given yet.
     items:
       - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
       - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
@@ -513,6 +527,7 @@ chat:
 protect:
   
   # General physics/behavior modifications.
+  # I've slightly modified this as well to keep the world looking nicer (preventing creeper holes and ender-griefing)
   prevent:
     lava-flow: false
     water-flow: false
@@ -535,7 +550,7 @@ protect:
     wither-blockreplace: false
     creeper-explosion: false
     creeper-playerdamage: false
-    creeper-blockdamage: false
+    creeper-blockdamage: true
     enderdragon-blockdamage: true
     enderman-pickup: true
     villager-death: true
@@ -671,7 +686,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&dWelcome {DISPLAYNAME}&d to Woodburry, you''re home in the apocalypse!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
@@ -688,6 +703,6 @@ newbies:
 respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # End of File <-- No seriously, you're done with configuration.
